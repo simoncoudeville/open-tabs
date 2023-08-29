@@ -7,4 +7,5 @@ Close a tab, copy the url or pin it.
 
 Search to filter open tabs.
 
-![chrome-extension___cechmfifcnakjmhgcdgbjifecjfelkap_index html(iPad Mini) (2)](https://github.com/simoncoudeville/open-tabs/assets/792841/98a33428-4da1-4b07-a69d-6f3c8c6c487b)
+![chrome-extension___cechmfifcnakjmhgcdgbjifecjfelkap_index html(iPad Mini) (2)](https://github.com/simoncoudeville/open-tabs/assets/792841/c91b17b7-f548-4a74-9203-980b1ad2a94f)
+
