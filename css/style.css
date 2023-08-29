@@ -153,7 +153,7 @@ a {
 
 .tabs__list+.tabs__title {
   margin-top: var(--global-whitespace);
-  padding-top: var(--global-whitespace-s);
+  padding-top: var(--global-whitespace-xxs);
 }
 
 .tabs__list {
