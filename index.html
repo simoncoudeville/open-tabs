@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open tabs</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+  <!-- <h1>Open tabs</h1> -->
+  <div class="row row--search search-intersection-observer">
+    <div class="container">
+      <form class="search">
+        <input type="text" class="search__input" name="search" placeholder="Search tabs">
+        <button type="reset" class="button-reset search__button search__button--reset">
+          <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+            <rect width="256" height="256" fill="none" />
+            <line x1="200" y1="56" x2="56" y2="200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+            <line x1="200" y1="200" x2="56" y2="56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+          </svg>
+        </button>
+        <button type="button" class="button-reset search__button search__button--submit">
+          <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+            <rect width="256" height="256" fill="none" />
+            <circle cx="112" cy="112" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+            <line x1="168.57" y1="168.57" x2="224" y2="224" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="row row--main">
+    <div class="container">
+      <div class="tabs">
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
